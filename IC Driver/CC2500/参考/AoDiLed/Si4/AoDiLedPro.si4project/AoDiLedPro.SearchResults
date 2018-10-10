@@ -1,0 +1,4 @@
+---- f_SendPacket Matches (3 in 3 files) ----
+CC2500.c (F:\XDD-qbj\02-MyLib\IC Driver\CC2500\参考\AoDiLed\Src) line 357 : uchar f_SendPacket(uchar *txBuffer, uchar size)       
+CC2500.h (F:\XDD-qbj\02-MyLib\IC Driver\CC2500\参考\AoDiLed\Src) line 124 : VAR_CC2500_EXT uchar f_SendPacket(uchar *txBuffer, uchar size);
+f_StartDataSend in RFcommunication.c (F:\XDD-qbj\02-MyLib\IC Driver\CC2500\参考\AoDiLed\Src) : 	  	//f_SendPacket(&ucCOMBuf[0], ucCOMBuf[0]+1);

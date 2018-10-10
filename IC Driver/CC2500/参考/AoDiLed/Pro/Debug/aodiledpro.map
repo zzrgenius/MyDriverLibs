@@ -1,0 +1,916 @@
+
+Map of Debug\aodiledpro.sm8 from link file Debug\aodiledpro.lkf - Tue May 22 13:50:31 2018
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 000080a0 length    32 segment .const
+start 000080ab end 0000974e length  5795 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 00000003 length     3 segment .bsct, initialized
+start 000080a8 end 000080ab length     3 segment .bsct, from
+start 00000003 end 00000055 length    82 segment .ubsct
+start 00000055 end 00000055 length     0 segment .bit
+start 00000055 end 00000055 length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 0000029e length   414 segment .bss
+start 00000000 end 000006f8 length  1784 segment .info.
+start 00000000 end 00017275 length 94837 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 000080a0 end 000080a8 length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\crtsi0.sm8:
+start 000080ab end 000080f6 length    75 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000003 end 00000003 length     0 section .ubsct
+start 00000000 end 0000002f length    47 section .info.
+
+Debug\cc2500.o:
+start 000080f6 end 00008632 length  1340 section .text
+start 00000100 end 00000109 length     9 section .bss
+start 00000000 end 0000264d length  9805 section .debug
+start 0000002f end 0000009d length   110 section .info.
+
+Debug\cpu_init.o:
+start 00008632 end 000086c7 length   149 section .text
+start 0000264d end 0000445e length  7697 section .debug
+start 0000009d end 0000010d length   112 section .info.
+
+Debug\eeprom.o:
+start 000086c7 end 0000894d length   646 section .text
+start 00000109 end 0000010c length     3 section .bss
+start ******** end ******** length     0 section .bsct *** removed ***
+start 00000003 end 00000008 length     5 section .ubsct
+start 0000445e end 000067d0 length  9074 section .debug
+start 0000010d end 0000017b length   110 section .info.
+start 00008080 end 00008098 length    24 section .const
+
+Debug\led.o:
+start 0000894d end 00008d5f length  1042 section .text
+start 0000010c end 00000114 length     8 section .bss
+start 00000000 end 00000003 length     3 section .bsct
+start 000067d0 end 000093f4 length 11300 section .debug
+start 0000017b end 000001e6 length   107 section .info.
+
+Debug\rfcommunication.o:
+start 00008d5f end 00008eb4 length   341 section .text
+start 00000008 end 0000004b length    67 section .ubsct
+start 000093f4 end 0000b3b5 length  8129 section .debug
+start 000001e6 end 0000025d length   119 section .info.
+
+Debug\subfunction.o:
+start 00008eb4 end 0000909d length   489 section .text
+start 00000114 end 00000115 length     1 section .bss
+start 0000b3b5 end 0000d8d1 length  9500 section .debug
+start 0000025d end 000002d0 length   115 section .info.
+start 00008098 end 000080a0 length     8 section .const
+
+Debug\timer.o:
+start 0000909d end 00009159 length   188 section .text
+start 00000115 end 00000122 length    13 section .bss
+start 0000d8d1 end 0000f8bb length  8170 section .debug
+start 000002d0 end 0000033d length   109 section .info.
+
+Debug\uart1.o:
+start 00009159 end 000094e5 length   908 section .text
+start 00000122 end 00000276 length   340 section .bss
+start ******** end ******** length     0 section .bsct *** removed ***
+start 0000f8bb end 00012cd3 length 13336 section .debug
+start 0000033d end 000003aa length   109 section .info.
+
+Debug\main.o:
+start 000094e5 end 000095c6 length   225 section .text
+start 00000276 end 0000029e length    40 section .bss
+start ******** end ******** length     0 section .bsct *** removed ***
+start 00012cd3 end 0001552c length 10329 section .debug
+start 000003aa end 00000416 length   108 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)itol.o:
+start 000095c6 end 000095d2 length    12 section .text
+start 00000416 end 00000444 length    46 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lcmp.o:
+start 000095d2 end 000095f2 length    32 section .text
+start 00000444 end 00000472 length    46 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lsdiv.o:
+start 000095f2 end 00009611 length    31 section .text
+start 00000472 end 000004a1 length    47 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)ldiv.o:
+start 00009611 end 000096fc length   235 section .text
+start 000004a1 end 000004cf length    46 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lgadc.o:
+start 000096fc end 0000970c length    16 section .text
+start 000004cf end 000004fe length    47 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lgneg.o:
+start 0000970c end 0000971f length    19 section .text
+start 000004fe end 0000052d length    47 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lneg.o:
+start 0000971f end 00009734 length    21 section .text
+start 0000052d end 0000055b length    46 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lreg.o:
+start 0000004b end 0000004f length     4 section .ubsct
+start 0000055b end 00000589 length    46 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)rtol.o:
+start 00009734 end 00009746 length    18 section .text
+start 00000589 end 000005b7 length    46 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)utolx.o:
+start 00009746 end 0000974d length     7 section .text
+start 000005b7 end 000005e6 length    47 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)xreg.o:
+start 0000004f end 00000052 length     3 section .ubsct
+start 000005e6 end 00000614 length    46 section .info.
+
+(D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)yreg.o:
+start 00000052 end 00000055 length     3 section .ubsct
+start 00000614 end 00000642 length    46 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 0000974d end 0000974e length     1 section .text
+start 0001552c end 00017275 length  7497 section .debug
+start 00000642 end 000006bf length   125 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\cc2500.o:
+_CC2500_Settings_250k          15   (3)
+_SetCC2500_ChannelNumber       15   (3)
+_f_Cc2500Init                  21   (3)
+_f_InitCC2500                  18   (3)
+_f_RxCC2500                    13   (2)
+_f_SendPacket              >   21   (7)
+_f_SleepCC2500             >   13   (2)
+_halRfReceivePacket            22   (9)
+_sPowerReset                   10   (4)
+_sSetInterrupt                  2   (2)
+_sSpiInitIO                     2   (2)
+_sSpiRead                       4   (4)
+_sSpiReadByte                  12   (6)
+_sSpiReadMore                  13   (7)
+_sSpiReadStatus                12   (6)
+_sSpiWrite                      5   (5)
+_sSpiWriteByte                 12   (6)
+_sSpiWriteMore                 14   (8)
+_sSpiWriteStatus               11   (5)
+
+Debug\cpu_init.o:
+_f_pCpuAdPortInit               2   (2)
+_f_pCpuClkInit                  2   (2)
+_f_pCpuDongInit                 2   (2)
+_f_pCpuFeedDog                  2   (2)
+_f_pCpuInit                     4   (2)
+_f_pCpuIoInit                   2   (2)
+_f_pTimeInit                    2   (2)
+
+Debug\eeprom.o:
+_f_pInitDataEeprom             28   (2)
+_f_pLockEeprom                  2   (2)
+_f_pReadAllDataEeprom          23   (2)
+_f_pReadEeprom                 13   (10)
+_f_pReadOneTypeData            21   (8)
+_f_pUnLockEeprom                4   (4)
+_f_pWriteAllDataEeprom         26   (4)
+_f_pWriteEeprom                14   (10)
+_f_pWriteOneDataEeprom         19   (5)
+_f_pWriteOneTypeData           22   (8)
+
+Debug\led.o:
+_f_pLedDeal                     4   (4)
+_f_pLedDriveDeal                2   (2)
+_f_pLedInit                     2   (2)
+
+Debug\main.o:
+_main                      >   30   (2)
+
+Debug\rfcommunication.o:
+_f_AddTotalNum                  7   (7)
+_f_DealRXD                     16   (3)
+_f_StartDataSend           >   10   (3)
+f_PBExtInterrupt           >   37   (15)
+
+Debug\stm8_interrupt_vector.o:
+f_NonHandledInterrupt      >    5   (5)
+
+Debug\subfunction.o:
+_AddCharData               >    2   (2)
+_AddIntData                     6   (4)
+_AddTotalNum               >    7   (7)
+_DecCharData               >    2   (2)
+_DecIntData                >    2   (2)
+_f_AddRunTimerH            >    6   (4)
+_f_AddRunTimerM            >    6   (4)
+_f_CheckSum                     9   (9)
+_f_ClearRunTimeH           >    2   (2)
+_f_ClearRunTimeM           >    2   (2)
+_f_GetSWState              >   15   (9)
+_f_Memcpy                      12   (12)
+_f_XorSum                  >    9   (9)
+
+Debug\timer.o:
+_f_Delay                        6   (6)
+f_TIM1_OverFlowIRQHandler  >    9   (9)
+
+Debug\uart1.o:
+_f_pUart1BufAddJudge            2   (2)
+_f_pUart1GetSendData           14   (2)
+_f_pUart1Init                  22   (8)
+_f_pUart1ReceByte               4   (4)
+_f_pUart1ReceDeal              18   (6)
+_f_pUart1SendByte               2   (2)
+_f_pUart1SendDeal              16   (2)
+_f_pUart1TimeCnt                8   (2)
+f_UART1_RX_Interrupt       >   19   (15)
+f_UART1_TX_Interrupt       >   17   (15)
+
+Stack size: 67
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _AddCharData: (2)
+
+   2 > _AddTotalNum: (7)
+
+   3 > _DecCharData: (2)
+
+   4 > _DecIntData: (2)
+
+   5 > __stext: (0)
+
+   6 > _f_AddRunTimerH: (4)
+
+   7 > _f_AddRunTimerM: (4)
+
+   8 > _f_ClearRunTimeH: (2)
+
+   9 > _f_ClearRunTimeM: (2)
+
+  10 > _f_GetSWState: (9)
+  11      + _AddIntData: (4)
+       
+  12 > _f_SendPacket: (7)
+  13      + _sSpiWriteMore: (8)
+  14      |    + _f_Delay: (6)
+  15      |    + _sSpiWrite: (5)
+          | 
+  16      + _sSpiWriteStatus: (5)
+  17      |    + _f_Delay --> 14
+  18      |    + _sSpiWrite --> 15
+          | 
+       
+  19 > _f_SleepCC2500: (2)
+  20      + _sSpiWriteStatus --> 16
+       
+  21 > _f_StartDataSend: (3)
+  22      + _f_AddTotalNum: (7)
+       
+  23 > _f_XorSum: (9)
+
+  24 > _main: (2)
+  25      + _SetCC2500_ChannelNumber: (3)
+  26      |    + _f_Delay --> 14
+  27      |    + _sSpiWriteByte: (6)
+  28      |    |    + _f_Delay --> 14
+  29      |    |    + _sSpiWrite --> 15
+          |    | 
+  30      |    + _sSpiWriteStatus --> 16
+          | 
+  31      + _f_Cc2500Init: (3)
+  32      |    + _f_InitCC2500: (3)
+  33      |    |    + _CC2500_Settings_250k: (3)
+  34      |    |    |    + _sSpiReadByte: (6)
+  35      |    |    |    |    + _f_Delay --> 14
+  36      |    |    |    |    + _sSpiRead: (4)
+  37      |    |    |    |    + _sSpiWrite --> 15
+          |    |    |    | 
+  38      |    |    |    + _sSpiWriteByte --> 27
+          |    |    | 
+  39      |    |    + _f_Delay --> 14
+  40      |    |    + _sPowerReset: (4)
+  41      |    |    |    + _f_Delay --> 14
+  42      |    |    |    + _sSpiWrite --> 15
+          |    |    | 
+  43      |    |    + _sSetInterrupt: (2)
+  44      |    |    + _sSpiInitIO: (2)
+  45      |    |    + _sSpiWriteStatus --> 16
+          |    | 
+          | 
+  46      + _f_DealRXD: (3)
+  47      |    + _f_AddTotalNum --> 22
+  48      |    + _f_RxCC2500: (2)
+  49      |    |    + _sSpiWriteStatus --> 16
+          |    | 
+          | 
+  50      + _f_Delay --> 14
+  51      + _f_RxCC2500 --> 48
+  52      + _f_pCpuFeedDog: (2)
+  53      + _f_pCpuInit: (2)
+  54      |    + _f_pCpuAdPortInit: (2)
+  55      |    + _f_pCpuClkInit: (2)
+  56      |    + _f_pCpuDongInit: (2)
+  57      |    + _f_pCpuIoInit: (2)
+  58      |    + _f_pTimeInit: (2)
+          | 
+  59      + _f_pInitDataEeprom: (2)
+  60      |    + _f_pReadAllDataEeprom: (2)
+  61      |    |    + _f_pReadOneTypeData: (8)
+  62      |    |    |    + _f_pReadEeprom: (10)
+          |    |    | 
+          |    | 
+  63      |    + _f_pWriteAllDataEeprom: (4)
+  64      |    |    + _f_pLockEeprom: (2)
+  65      |    |    + _f_pWriteEeprom: (10)
+  66      |    |    |    + _f_pUnLockEeprom: (4)
+          |    |    | 
+  67      |    |    + _f_pWriteOneTypeData: (8)
+  68      |    |    |    + _f_pWriteEeprom --> 65
+          |    |    | 
+          |    | 
+          | 
+  69      + _f_pLedDeal: (4)
+  70      + _f_pLedDriveDeal: (2)
+  71      + _f_pLedInit: (2)
+  72      + _f_pUart1Init: (8)
+  73      + _f_pUart1ReceDeal: (6)
+  74      |    + _f_Memcpy: (12)
+          | 
+  75      + _f_pUart1SendDeal: (2)
+  76      |    + _f_pUart1GetSendData: (2)
+  77      |    |    + _f_CheckSum: (9)
+  78      |    |    + _f_Memcpy --> 74
+  79      |    |    + _f_pUart1BufAddJudge: (2)
+          |    | 
+  80      |    + _f_pUart1SendByte: (2)
+          | 
+  81      + _f_pUart1TimeCnt: (2)
+  82      |    + _AddIntData --> 11
+          | 
+  83      + _f_pWriteOneDataEeprom: (5)
+  84      |    + _f_pWriteEeprom --> 65
+          | 
+       
+  85 > f_NonHandledInterrupt: (5)
+
+  86 > f_PBExtInterrupt: (15)
+  87      + _f_RxCC2500 --> 48
+  88      + _halRfReceivePacket: (9)
+  89      |    + _f_RxCC2500 --> 48
+  90      |    + _sSpiReadByte --> 34
+  91      |    + _sSpiReadMore: (7)
+  92      |    |    + _f_Delay --> 14
+  93      |    |    + _sSpiRead --> 36
+  94      |    |    + _sSpiWrite --> 15
+          |    | 
+  95      |    + _sSpiReadStatus: (6)
+  96      |    |    + _f_Delay --> 14
+  97      |    |    + _sSpiRead --> 36
+  98      |    |    + _sSpiWrite --> 15
+          |    | 
+  99      |    + _sSpiWriteStatus --> 16
+          | 
+       
+ 100 > f_TIM1_OverFlowIRQHandler: (9)
+
+ 101 > f_UART1_RX_Interrupt: (15)
+ 102      + _f_pUart1ReceByte: (4)
+       
+ 103 > f_UART1_TX_Interrupt: (15)
+ 104      + _f_pUart1SendByte --> 80
+       
+ 105   _AddIntData --> 11
+
+ 106   _CC2500_Settings_250k --> 33
+
+ 107   _SetCC2500_ChannelNumber --> 25
+
+ 108   _f_AddTotalNum --> 22
+
+ 109   _f_Cc2500Init --> 31
+
+ 110   _f_CheckSum --> 77
+
+ 111   _f_DealRXD --> 46
+
+ 112   _f_Delay --> 14
+
+ 113   _f_InitCC2500 --> 32
+
+ 114   _f_Memcpy --> 74
+
+ 115   _f_RxCC2500 --> 48
+
+ 116   _f_pCpuAdPortInit --> 54
+
+ 117   _f_pCpuClkInit --> 55
+
+ 118   _f_pCpuDongInit --> 56
+
+ 119   _f_pCpuFeedDog --> 52
+
+ 120   _f_pCpuInit --> 53
+
+ 121   _f_pCpuIoInit --> 57
+
+ 122   _f_pInitDataEeprom --> 59
+
+ 123   _f_pLedDeal --> 69
+
+ 124   _f_pLedDriveDeal --> 70
+
+ 125   _f_pLedInit --> 71
+
+ 126   _f_pLockEeprom --> 64
+
+ 127   _f_pReadAllDataEeprom --> 60
+
+ 128   _f_pReadEeprom --> 62
+
+ 129   _f_pReadOneTypeData --> 61
+
+ 130   _f_pTimeInit --> 58
+
+ 131   _f_pUart1BufAddJudge --> 79
+
+ 132   _f_pUart1GetSendData --> 76
+
+ 133   _f_pUart1Init --> 72
+
+ 134   _f_pUart1ReceByte --> 102
+
+ 135   _f_pUart1ReceDeal --> 73
+
+ 136   _f_pUart1SendByte --> 80
+
+ 137   _f_pUart1SendDeal --> 75
+
+ 138   _f_pUart1TimeCnt --> 81
+
+ 139   _f_pUnLockEeprom --> 66
+
+ 140   _f_pWriteAllDataEeprom --> 63
+
+ 141   _f_pWriteEeprom --> 65
+
+ 142   _f_pWriteOneDataEeprom --> 83
+
+ 143   _f_pWriteOneTypeData --> 67
+
+ 144   _halRfReceivePacket --> 88
+
+ 145   _sPowerReset --> 40
+
+ 146   _sSetInterrupt --> 43
+
+ 147   _sSpiInitIO --> 44
+
+ 148   _sSpiRead --> 36
+
+ 149   _sSpiReadByte --> 34
+
+ 150   _sSpiReadMore --> 91
+
+ 151   _sSpiReadStatus --> 95
+
+ 152   _sSpiWrite --> 15
+
+ 153   _sSpiWriteByte --> 27
+
+ 154   _sSpiWriteMore --> 13
+
+ 155   _sSpiWriteStatus --> 16
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ADC_AWCR                   0000540e   defined in Debug\cc2500.o
+_ADC_AWCRH                  0000540e   defined in Debug\cc2500.o
+_ADC_AWCRL                  0000540f   defined in Debug\cc2500.o
+_ADC_AWSR                   0000540c   defined in Debug\cc2500.o
+_ADC_AWSRH                  0000540c   defined in Debug\cc2500.o
+_ADC_AWSRL                  0000540d   defined in Debug\cc2500.o
+_ADC_CR1                    00005401   defined in Debug\cc2500.o
+_ADC_CR2                    00005402   defined in Debug\cc2500.o
+_ADC_CR3                    00005403   defined in Debug\cc2500.o
+_ADC_CSR                    00005400   defined in Debug\cc2500.o
+_ADC_DB0R                   000053e0   defined in Debug\cc2500.o
+_ADC_DB0RH                  000053e0   defined in Debug\cc2500.o
+_ADC_DB0RL                  000053e1   defined in Debug\cc2500.o
+_ADC_DB1R                   000053e2   defined in Debug\cc2500.o
+_ADC_DB1RH                  000053e2   defined in Debug\cc2500.o
+_ADC_DB1RL                  000053e3   defined in Debug\cc2500.o
+_ADC_DB2R                   000053e4   defined in Debug\cc2500.o
+_ADC_DB2RH                  000053e4   defined in Debug\cc2500.o
+_ADC_DB2RL                  000053e5   defined in Debug\cc2500.o
+_ADC_DB3R                   000053e6   defined in Debug\cc2500.o
+_ADC_DB3RH                  000053e6   defined in Debug\cc2500.o
+_ADC_DB3RL                  000053e7   defined in Debug\cc2500.o
+_ADC_DB4R                   000053e8   defined in Debug\cc2500.o
+_ADC_DB4RH                  000053e8   defined in Debug\cc2500.o
+_ADC_DB4RL                  000053e9   defined in Debug\cc2500.o
+_ADC_DB5R                   000053ea   defined in Debug\cc2500.o
+_ADC_DB5RH                  000053ea   defined in Debug\cc2500.o
+_ADC_DB5RL                  000053eb   defined in Debug\cc2500.o
+_ADC_DB6R                   000053ec   defined in Debug\cc2500.o
+_ADC_DB6RH                  000053ec   defined in Debug\cc2500.o
+_ADC_DB6RL                  000053ed   defined in Debug\cc2500.o
+_ADC_DB7R                   000053ee   defined in Debug\cc2500.o
+_ADC_DB7RH                  000053ee   defined in Debug\cc2500.o
+_ADC_DB7RL                  000053ef   defined in Debug\cc2500.o
+_ADC_DB8R                   000053f0   defined in Debug\cc2500.o
+_ADC_DB8RH                  000053f0   defined in Debug\cc2500.o
+_ADC_DB8RL                  000053f1   defined in Debug\cc2500.o
+_ADC_DB9R                   000053f2   defined in Debug\cc2500.o
+_ADC_DB9RH                  000053f2   defined in Debug\cc2500.o
+_ADC_DB9RL                  000053f3   defined in Debug\cc2500.o
+_ADC_DR                     00005404   defined in Debug\cc2500.o
+_ADC_DRH                    00005404   defined in Debug\cc2500.o
+_ADC_DRL                    00005405   defined in Debug\cc2500.o
+_ADC_HTR                    00005408   defined in Debug\cc2500.o
+_ADC_HTRH                   00005408   defined in Debug\cc2500.o
+_ADC_HTRL                   00005409   defined in Debug\cc2500.o
+_ADC_LTR                    0000540a   defined in Debug\cc2500.o
+_ADC_LTRH                   0000540a   defined in Debug\cc2500.o
+_ADC_LTRL                   0000540b   defined in Debug\cc2500.o
+_ADC_TDR                    00005406   defined in Debug\cc2500.o
+_ADC_TDRH                   00005406   defined in Debug\cc2500.o
+_ADC_TDRL                   00005407   defined in Debug\cc2500.o
+_AWU_APR                    000050f1   defined in Debug\cc2500.o
+_AWU_CSR                    000050f0   defined in Debug\cc2500.o
+_AWU_TBR                    000050f2   defined in Debug\cc2500.o
+_AddCharData                0000903a   defined in Debug\subfunction.o section .text
+_AddIntData                 00009049   defined in Debug\subfunction.o section .text
+                                       used in Debug\uart1.o
+_AddTotalNum                00009078   defined in Debug\subfunction.o section .text
+_BEEP_CSR                   000050f3   defined in Debug\cc2500.o
+_CC2500_Settings_250k       000082e8   defined in Debug\cc2500.o section .text
+_CFG_GCR                    00007f60   defined in Debug\cc2500.o
+_CLK_CANCCR                 000050cb   defined in Debug\cc2500.o
+_CLK_CCOR                   000050c9   defined in Debug\cc2500.o
+_CLK_CKDIVR                 000050c6   defined in Debug\cc2500.o
+_CLK_CMSR                   000050c3   defined in Debug\cc2500.o
+_CLK_CSSR                   000050c8   defined in Debug\cc2500.o
+_CLK_ECKR                   000050c1   defined in Debug\cc2500.o
+_CLK_HSITRIMR               000050cc   defined in Debug\cc2500.o
+_CLK_ICKR                   000050c0   defined in Debug\cc2500.o
+_CLK_PCKENR1                000050c7   defined in Debug\cc2500.o
+_CLK_PCKENR2                000050ca   defined in Debug\cc2500.o
+_CLK_SWCR                   000050c5   defined in Debug\cc2500.o
+_CLK_SWIMCCR                000050cd   defined in Debug\cc2500.o
+_CLK_SWR                    000050c4   defined in Debug\cc2500.o
+_Cc2500Inf                  00000100   defined in Debug\cc2500.o section .bss
+                                       used in Debug\rfcommunication.o
+                                               Debug\main.o
+_DecCharData                00009044   defined in Debug\subfunction.o section .text
+_DecIntData                 0000906a   defined in Debug\subfunction.o section .text
+_EXTI_CR1                   000050a0   defined in Debug\cc2500.o
+_EXTI_CR2                   000050a1   defined in Debug\cc2500.o
+_FLASH_CR1                  0000505a   defined in Debug\cc2500.o
+_FLASH_CR2                  0000505b   defined in Debug\cc2500.o
+_FLASH_DUKR                 00005064   defined in Debug\cc2500.o
+_FLASH_FPR                  0000505d   defined in Debug\cc2500.o
+_FLASH_IAPSR                0000505f   defined in Debug\cc2500.o
+_FLASH_NCR2                 0000505c   defined in Debug\cc2500.o
+_FLASH_NFPR                 0000505e   defined in Debug\cc2500.o
+_FLASH_PUKR                 00005062   defined in Debug\cc2500.o
+_I2C_CCRH                   0000521c   defined in Debug\cc2500.o
+_I2C_CCRL                   0000521b   defined in Debug\cc2500.o
+_I2C_CR1                    00005210   defined in Debug\cc2500.o
+_I2C_CR2                    00005211   defined in Debug\cc2500.o
+_I2C_DR                     00005216   defined in Debug\cc2500.o
+_I2C_FREQR                  00005212   defined in Debug\cc2500.o
+_I2C_ITR                    0000521a   defined in Debug\cc2500.o
+_I2C_OARH                   00005214   defined in Debug\cc2500.o
+_I2C_OARL                   00005213   defined in Debug\cc2500.o
+_I2C_PECR                   0000521e   defined in Debug\cc2500.o
+_I2C_SR1                    00005217   defined in Debug\cc2500.o
+_I2C_SR2                    00005218   defined in Debug\cc2500.o
+_I2C_SR3                    00005219   defined in Debug\cc2500.o
+_I2C_TRISER                 0000521d   defined in Debug\cc2500.o
+_ITC_SPR1                   00007f70   defined in Debug\cc2500.o
+_ITC_SPR2                   00007f71   defined in Debug\cc2500.o
+_ITC_SPR3                   00007f72   defined in Debug\cc2500.o
+_ITC_SPR4                   00007f73   defined in Debug\cc2500.o
+_ITC_SPR5                   00007f74   defined in Debug\cc2500.o
+_ITC_SPR6                   00007f75   defined in Debug\cc2500.o
+_ITC_SPR7                   00007f76   defined in Debug\cc2500.o
+_IWDG_KR                    000050e0   defined in Debug\cc2500.o
+_IWDG_PR                    000050e1   defined in Debug\cc2500.o
+_IWDG_RLR                   000050e2   defined in Debug\cc2500.o
+_LedDisFlickF               0000010f   defined in Debug\led.o section .bss
+_LedDisFlickS               0000010e   defined in Debug\led.o section .bss
+                                       used in Debug\timer.o
+_LedDisIcon                 00000110   defined in Debug\led.o section .bss
+_LedDisPower500F            0000010d   defined in Debug\led.o section .bss
+_LedDisPower500S            0000010c   defined in Debug\led.o section .bss
+                                       used in Debug\timer.o
+_LedInf                     00000111   defined in Debug\led.o section .bss
+                                       used in Debug\rfcommunication.o
+                                               Debug\uart1.o Debug\main.o
+_NeedSendInf                0000025b   defined in Debug\uart1.o section .bss
+_PA_CR1                     00005003   defined in Debug\cc2500.o
+_PA_CR2                     00005004   defined in Debug\cc2500.o
+_PA_DDR                     00005002   defined in Debug\cc2500.o
+_PA_IDR                     00005001   defined in Debug\cc2500.o
+_PA_ODR                     00005000   defined in Debug\cc2500.o
+_PB_CR1                     00005008   defined in Debug\cc2500.o
+_PB_CR2                     00005009   defined in Debug\cc2500.o
+_PB_DDR                     00005007   defined in Debug\cc2500.o
+_PB_IDR                     00005006   defined in Debug\cc2500.o
+_PB_ODR                     00005005   defined in Debug\cc2500.o
+_PC_CR1                     0000500d   defined in Debug\cc2500.o
+_PC_CR2                     0000500e   defined in Debug\cc2500.o
+_PC_DDR                     0000500c   defined in Debug\cc2500.o
+_PC_IDR                     0000500b   defined in Debug\cc2500.o
+_PC_ODR                     0000500a   defined in Debug\cc2500.o
+_PD_CR1                     00005012   defined in Debug\cc2500.o
+_PD_CR2                     00005013   defined in Debug\cc2500.o
+_PD_DDR                     00005011   defined in Debug\cc2500.o
+_PD_IDR                     00005010   defined in Debug\cc2500.o
+_PD_ODR                     0000500f   defined in Debug\cc2500.o
+_RST_SR                     000050b3   defined in Debug\cc2500.o
+_RxComBuff                  0000025c   defined in Debug\uart1.o section .bss
+_SPI_CR1                    00005200   defined in Debug\cc2500.o
+_SPI_CR2                    00005201   defined in Debug\cc2500.o
+_SPI_CRCPR                  00005205   defined in Debug\cc2500.o
+_SPI_DR                     00005204   defined in Debug\cc2500.o
+_SPI_ICR                    00005202   defined in Debug\cc2500.o
+_SPI_RXCRCR                 00005206   defined in Debug\cc2500.o
+_SPI_SR                     00005203   defined in Debug\cc2500.o
+_SPI_TXCRCR                 00005207   defined in Debug\cc2500.o
+_SetCC2500_ChannelNumber    00008616   defined in Debug\cc2500.o section .text
+                                       used in Debug\main.o
+_TAB_Limit_uchar            00008086   defined in Debug\eeprom.o section .const
+_TAB_Save_Data_List         0000808f   defined in Debug\eeprom.o section .const
+_TIM1_ARR                   00005262   defined in Debug\cc2500.o
+_TIM1_ARRH                  00005262   defined in Debug\cc2500.o
+_TIM1_ARRL                  00005263   defined in Debug\cc2500.o
+_TIM1_BKR                   0000526d   defined in Debug\cc2500.o
+_TIM1_CCER1                 0000525c   defined in Debug\cc2500.o
+_TIM1_CCER2                 0000525d   defined in Debug\cc2500.o
+_TIM1_CCMR1                 00005258   defined in Debug\cc2500.o
+_TIM1_CCMR2                 00005259   defined in Debug\cc2500.o
+_TIM1_CCMR3                 0000525a   defined in Debug\cc2500.o
+_TIM1_CCMR4                 0000525b   defined in Debug\cc2500.o
+_TIM1_CCR1                  00005265   defined in Debug\cc2500.o
+_TIM1_CCR1H                 00005265   defined in Debug\cc2500.o
+_TIM1_CCR1L                 00005266   defined in Debug\cc2500.o
+_TIM1_CCR2                  00005267   defined in Debug\cc2500.o
+_TIM1_CCR2H                 00005267   defined in Debug\cc2500.o
+_TIM1_CCR2L                 00005268   defined in Debug\cc2500.o
+_TIM1_CCR3                  00005269   defined in Debug\cc2500.o
+_TIM1_CCR3H                 00005269   defined in Debug\cc2500.o
+_TIM1_CCR3L                 0000526a   defined in Debug\cc2500.o
+_TIM1_CCR4                  0000526b   defined in Debug\cc2500.o
+_TIM1_CCR4H                 0000526b   defined in Debug\cc2500.o
+_TIM1_CCR4L                 0000526c   defined in Debug\cc2500.o
+_TIM1_CNTR                  0000525e   defined in Debug\cc2500.o
+_TIM1_CNTRH                 0000525e   defined in Debug\cc2500.o
+_TIM1_CNTRL                 0000525f   defined in Debug\cc2500.o
+_TIM1_CR1                   00005250   defined in Debug\cc2500.o
+_TIM1_CR2                   00005251   defined in Debug\cc2500.o
+_TIM1_DTR                   0000526e   defined in Debug\cc2500.o
+_TIM1_EGR                   00005257   defined in Debug\cc2500.o
+_TIM1_ETR                   00005253   defined in Debug\cc2500.o
+_TIM1_IER                   00005254   defined in Debug\cc2500.o
+_TIM1_OISR                  0000526f   defined in Debug\cc2500.o
+_TIM1_PSCR                  00005260   defined in Debug\cc2500.o
+_TIM1_PSCRH                 00005260   defined in Debug\cc2500.o
+_TIM1_PSCRL                 00005261   defined in Debug\cc2500.o
+_TIM1_RCR                   00005264   defined in Debug\cc2500.o
+_TIM1_SMCR                  00005252   defined in Debug\cc2500.o
+_TIM1_SR1                   00005255   defined in Debug\cc2500.o
+_TIM1_SR2                   00005256   defined in Debug\cc2500.o
+_TIM2_ARR                   0000530f   defined in Debug\cc2500.o
+_TIM2_ARRH                  0000530f   defined in Debug\cc2500.o
+_TIM2_ARRL                  00005310   defined in Debug\cc2500.o
+_TIM2_CCER1                 0000530a   defined in Debug\cc2500.o
+_TIM2_CCER2                 0000530b   defined in Debug\cc2500.o
+_TIM2_CCMR1                 00005307   defined in Debug\cc2500.o
+_TIM2_CCMR2                 00005308   defined in Debug\cc2500.o
+_TIM2_CCMR3                 00005309   defined in Debug\cc2500.o
+_TIM2_CCR1                  00005311   defined in Debug\cc2500.o
+_TIM2_CCR1H                 00005311   defined in Debug\cc2500.o
+_TIM2_CCR1L                 00005312   defined in Debug\cc2500.o
+_TIM2_CCR2                  00005313   defined in Debug\cc2500.o
+_TIM2_CCR2H                 00005313   defined in Debug\cc2500.o
+_TIM2_CCR2L                 00005314   defined in Debug\cc2500.o
+_TIM2_CCR3                  00005315   defined in Debug\cc2500.o
+_TIM2_CCR3H                 00005315   defined in Debug\cc2500.o
+_TIM2_CCR3L                 00005316   defined in Debug\cc2500.o
+_TIM2_CNTR                  0000530c   defined in Debug\cc2500.o
+_TIM2_CNTRH                 0000530c   defined in Debug\cc2500.o
+_TIM2_CNTRL                 0000530d   defined in Debug\cc2500.o
+_TIM2_CR1                   00005300   defined in Debug\cc2500.o
+_TIM2_EGR                   00005306   defined in Debug\cc2500.o
+_TIM2_IER                   00005303   defined in Debug\cc2500.o
+_TIM2_PSCR                  0000530e   defined in Debug\cc2500.o
+_TIM2_SR1                   00005304   defined in Debug\cc2500.o
+_TIM2_SR2                   00005305   defined in Debug\cc2500.o
+_TIM4_ARR                   00005348   defined in Debug\cc2500.o
+_TIM4_CNTR                  00005346   defined in Debug\cc2500.o
+_TIM4_CR1                   00005340   defined in Debug\cc2500.o
+_TIM4_EGR                   00005345   defined in Debug\cc2500.o
+_TIM4_IER                   00005343   defined in Debug\cc2500.o
+_TIM4_PSCR                  00005347   defined in Debug\cc2500.o
+_TIM4_SR                    00005344   defined in Debug\cc2500.o
+_TxComBuff                  0000026e   defined in Debug\uart1.o section .bss
+                                       used in Debug\led.o
+                                               Debug\rfcommunication.o
+_UART1_BRR1                 00005232   defined in Debug\cc2500.o
+_UART1_BRR2                 00005233   defined in Debug\cc2500.o
+_UART1_CR1                  00005234   defined in Debug\cc2500.o
+_UART1_CR2                  00005235   defined in Debug\cc2500.o
+_UART1_CR3                  00005236   defined in Debug\cc2500.o
+_UART1_CR4                  00005237   defined in Debug\cc2500.o
+_UART1_CR5                  00005238   defined in Debug\cc2500.o
+_UART1_DR                   00005231   defined in Debug\cc2500.o
+_UART1_GTR                  00005239   defined in Debug\cc2500.o
+_UART1_PSCR                 0000523a   defined in Debug\cc2500.o
+_UART1_SR                   00005230   defined in Debug\cc2500.o
+_Uart1ComFlag               00000122   defined in Debug\uart1.o section .bss
+_Uart1Rx                    00000123   defined in Debug\uart1.o section .bss
+_Uart1Tx                    000001bf   defined in Debug\uart1.o section .bss
+_WWDG_CR                    000050d1   defined in Debug\cc2500.o
+_WWDG_WR                    000050d2   defined in Debug\cc2500.o
+__endmem                    000001ff   defined in command file
+                                       *** not used ***
+__endzp                     00000055   defined in command file section .ubsct
+                                       used in D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\crtsi0.sm8
+__idesc__                   000080a0   defined in linker section .init
+                                       used in D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\crtsi0.sm8
+__memory                    0000029e   defined in command file section .bss
+                                       used in D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\crtsi0.sm8
+__stack                     000003ff   defined in command file
+                                       used in D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\crtsi0.sm8
+__startmem                  0000029e   defined in command file section .bss
+                                       *** not used ***
+__stext                     000080ab   defined in D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\crtsi0.sm8 section .text
+                                       used in Debug\stm8_interrupt_vector.o
+__vectab                    00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_dataRecBuff                00000008   defined in Debug\rfcommunication.o section .ubsct
+_eFirstPowerON              00004000   defined in Debug\cc2500.o
+_eMachine_Type              00004002   defined in Debug\cc2500.o
+_exit                       000080f4   defined in D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\crtsi0.sm8 section .text
+_f_AddRunTimerH             00008fea   defined in Debug\subfunction.o section .text
+_f_AddRunTimerM             00008fa9   defined in Debug\subfunction.o section .text
+_f_AddTotalNum              00008d5f   defined in Debug\rfcommunication.o section .text
+_f_Cc2500Init               00008603   defined in Debug\cc2500.o section .text
+                                       used in Debug\main.o
+_f_CheckSum                 00008ef4   defined in Debug\subfunction.o section .text
+                                       used in Debug\uart1.o
+_f_ClearRunTimeH            00008f9b   defined in Debug\subfunction.o section .text
+_f_ClearRunTimeM            00008fa3   defined in Debug\subfunction.o section .text
+_f_DealRXD                  00008d9e   defined in Debug\rfcommunication.o section .text
+                                       used in Debug\main.o
+_f_Delay                    0000909d   defined in Debug\timer.o section .text
+                                       used in Debug\cc2500.o Debug\main.o
+_f_GetSWState               00008f55   defined in Debug\subfunction.o section .text
+_f_InitCC2500               000085ce   defined in Debug\cc2500.o section .text
+_f_Memcpy                   00008eb4   defined in Debug\subfunction.o section .text
+                                       used in Debug\uart1.o
+_f_RxCC2500                 00008462   defined in Debug\cc2500.o section .text
+                                       used in Debug\rfcommunication.o
+                                               Debug\main.o
+_f_SendPacket               00008472   defined in Debug\cc2500.o section .text
+_f_SleepCC2500              00008457   defined in Debug\cc2500.o section .text
+_f_StartDataSend            00008d84   defined in Debug\rfcommunication.o section .text
+_f_XorSum                   00008f21   defined in Debug\subfunction.o section .text
+_f_pCpuAdPortInit           00008677   defined in Debug\cpu_init.o section .text
+_f_pCpuClkInit              00008632   defined in Debug\cpu_init.o section .text
+_f_pCpuDongInit             00008688   defined in Debug\cpu_init.o section .text
+_f_pCpuFeedDog              0000869d   defined in Debug\cpu_init.o section .text
+                                       used in Debug\main.o
+_f_pCpuInit                 000086bb   defined in Debug\cpu_init.o section .text
+                                       used in Debug\main.o
+_f_pCpuIoInit               00008642   defined in Debug\cpu_init.o section .text
+_f_pInitDataEeprom          0000893d   defined in Debug\eeprom.o section .text
+                                       used in Debug\main.o
+_f_pLedDeal                 0000894d   defined in Debug\led.o section .text
+                                       used in Debug\main.o
+_f_pLedDriveDeal            00008c5c   defined in Debug\led.o section .text
+                                       used in Debug\main.o
+_f_pLedInit                 00008c3b   defined in Debug\led.o section .text
+                                       used in Debug\main.o
+_f_pLockEeprom              00008700   defined in Debug\eeprom.o section .text
+_f_pReadAllDataEeprom       0000886c   defined in Debug\eeprom.o section .text
+_f_pReadEeprom              0000874d   defined in Debug\eeprom.o section .text
+_f_pReadOneTypeData         0000878f   defined in Debug\eeprom.o section .text
+_f_pTimeInit                000086a2   defined in Debug\cpu_init.o section .text
+_f_pUart1BufAddJudge        00009183   defined in Debug\uart1.o section .text
+_f_pUart1GetSendData        00009301   defined in Debug\uart1.o section .text
+_f_pUart1Init               000092a4   defined in Debug\uart1.o section .text
+                                       used in Debug\main.o
+_f_pUart1ReceByte           0000915d   defined in Debug\uart1.o section .text
+_f_pUart1ReceDeal           000093da   defined in Debug\uart1.o section .text
+                                       used in Debug\main.o
+_f_pUart1SendByte           00009159   defined in Debug\uart1.o section .text
+_f_pUart1SendDeal           0000935a   defined in Debug\uart1.o section .text
+                                       used in Debug\main.o
+_f_pUart1TimeCnt            00009252   defined in Debug\uart1.o section .text
+                                       used in Debug\main.o
+_f_pUnLockEeprom            000086c7   defined in Debug\eeprom.o section .text
+_f_pWriteAllDataEeprom      000088ec   defined in Debug\eeprom.o section .text
+_f_pWriteEeprom             00008705   defined in Debug\eeprom.o section .text
+_f_pWriteOneDataEeprom      000087ca   defined in Debug\eeprom.o section .text
+                                       used in Debug\main.o
+_f_pWriteOneTypeData        00008830   defined in Debug\eeprom.o section .text
+_halRfReceivePacket         000084d2   defined in Debug\cc2500.o section .text
+                                       used in Debug\rfcommunication.o
+_machineInf                 00000276   defined in Debug\main.o section .bss
+                                       used in Debug\eeprom.o
+                                               Debug\rfcommunication.o
+_main                       000094e5   defined in Debug\main.o section .text
+                                       used in D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\crtsi0.sm8
+_nReducedTime               00000114   defined in Debug\subfunction.o section .bss
+_pBuff_uchar                00000109   defined in Debug\eeprom.o section .bss
+_pValuAdd_uchar             00008080   defined in Debug\eeprom.o section .const
+_sPowerReset                00008537   defined in Debug\cc2500.o section .text
+_sSetInterrupt              0000844a   defined in Debug\cc2500.o section .text
+_sSpiInitIO                 0000843d   defined in Debug\cc2500.o section .text
+_sSpiRead                   00008136   defined in Debug\cc2500.o section .text
+_sSpiReadByte               000081f2   defined in Debug\cc2500.o section .text
+_sSpiReadMore               00008231   defined in Debug\cc2500.o section .text
+_sSpiReadStatus             00008274   defined in Debug\cc2500.o section .text
+_sSpiWrite                  000080f6   defined in Debug\cc2500.o section .text
+_sSpiWriteByte              0000815e   defined in Debug\cc2500.o section .text
+_sSpiWriteMore              0000819a   defined in Debug\cc2500.o section .text
+_sSpiWriteStatus            000082b3   defined in Debug\cc2500.o section .text
+_sendNum                    00000009   defined in Debug\rfcommunication.o section .ubsct
+_tComState                  0000004a   defined in Debug\rfcommunication.o section .ubsct
+_tTime                      00000115   defined in Debug\timer.o section .bss
+                                       used in Debug\main.o
+_tTimeFlag                  00000121   defined in Debug\timer.o section .bss
+                                       used in Debug\main.o
+_ucCOMBuf                   0000000a   defined in Debug\rfcommunication.o section .ubsct
+c_divsl                     00009611   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)ldiv.o section .text
+                                       used in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lsdiv.o
+c_divul                     00009628   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)ldiv.o section .text
+c_itol                      000095c6   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)itol.o section .text
+                                       used in Debug\eeprom.o
+c_lcmp                      000095d2   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lcmp.o section .text
+                                       used in Debug\subfunction.o
+c_ldiv                      000095f2   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lsdiv.o section .text
+                                       used in Debug\uart1.o
+c_lgadc                     000096fc   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lgadc.o section .text
+                                       used in Debug\eeprom.o
+c_lgneg                     0000970c   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lgneg.o section .text
+                                       used in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)ldiv.o
+c_lneg                      0000971f   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lneg.o section .text
+                                       used in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lsdiv.o
+                                               (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)ldiv.o
+c_lreg                      0000004b   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lreg.o section .ubsct
+                                       used in Debug\rfcommunication.o
+                                               Debug\timer.o Debug\uart1.o
+                                               (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)itol.o
+                                               (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lcmp.o
+                                               (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)ldiv.o
+                                               (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lneg.o
+                                               (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)rtol.o
+                                               (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)utolx.o
+c_rtol                      00009734   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)rtol.o section .text
+                                       used in Debug\eeprom.o Debug\uart1.o
+c_uitolx                    00009746   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)utolx.o section .text
+                                       used in Debug\subfunction.o Debug\uart1.o
+c_x                         0000004f   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)xreg.o section .ubsct
+                                       used in D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\crtsi0.sm8
+                                               Debug\cc2500.o Debug\eeprom.o
+                                               Debug\rfcommunication.o
+                                               Debug\uart1.o
+                                               (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)lsdiv.o
+                                               (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)ldiv.o
+c_y                         00000052   defined in (D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\libm0.sm8)yreg.o section .ubsct
+                                       used in D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Lib\crtsi0.sm8
+                                               Debug\rfcommunication.o
+                                               Debug\uart1.o
+f_NonHandledInterrupt       0000974d   defined in Debug\stm8_interrupt_vector.o section .text
+f_PBExtInterrupt            00008e4a   defined in Debug\rfcommunication.o section .text
+                                       used in Debug\stm8_interrupt_vector.o
+f_TIM1_OverFlowIRQHandler   000090b5   defined in Debug\timer.o section .text
+                                       used in Debug\stm8_interrupt_vector.o
+f_UART1_RX_Interrupt        000091ff   defined in Debug\uart1.o section .text
+                                       used in Debug\stm8_interrupt_vector.o
+f_UART1_TX_Interrupt        00009193   defined in Debug\uart1.o section .text
+                                       used in Debug\stm8_interrupt_vector.o

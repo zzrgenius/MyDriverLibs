@@ -1,0 +1,320 @@
+
+Map of Debug\key.sm8 from link file Debug\key.lkf - Thu Apr 19 16:21:06 2018
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 000080b6 length    54 segment .const
+start 000080b9 end 000086ed length  1588 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 00000000 length     0 segment .bsct
+start 00000000 end 00000037 length    55 segment .ubsct
+start 00000037 end 00000037 length     0 segment .bit
+start 00000037 end 00000037 length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 00000651 length  1617 segment .info.
+start 00000000 end 00001e78 length  7800 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 000080b6 end 000080b9 length     3 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8:
+start 000080b9 end 00008109 length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000000 end 00000000 length     0 section .ubsct
+start 00000000 end 00000034 length    52 section .info.
+
+Debug\subfunction.o:
+start 00008109 end 000081a0 length   151 section .text
+start 00000000 end 000004e0 length  1248 section .debug
+start 00000034 end 000000a6 length   114 section .info.
+start 00008080 end 00008084 length     4 section .const
+
+Debug\keydeal.o:
+start 000081a0 end 000082b7 length   279 section .text
+start 00000000 end 0000001d length    29 section .ubsct
+start 000004e0 end 00000a54 length  1396 section .debug
+start 000000a6 end 00000114 length   110 section .info.
+start 00008084 end 000080a0 length    28 section .const
+
+Debug\keydriver.o:
+start 000082b7 end 00008578 length   705 section .text
+start 00000a54 end 000010dd length  1673 section .debug
+start 00000114 end 00000184 length   112 section .info.
+
+Debug\keydriverconfig.o:
+start 000010dd end 00001312 length   565 section .debug
+start 00000184 end 000001fa length   118 section .info.
+start 000080a0 end 000080af length    15 section .const
+
+Debug\keydriverhardware.o:
+start 00008578 end 000085d5 length    93 section .text
+start 0000001d end 00000022 length     5 section .ubsct
+start 00001312 end 000018ba length  1448 section .debug
+start 000001fa end 00000272 length   120 section .info.
+start 000080af end 000080b6 length     7 section .const
+
+Debug\main.o:
+start 000085d5 end 000085e0 length    11 section .text
+start 00000022 end 0000002d length    11 section .ubsct
+start 000018ba end 00001d0d length  1107 section .debug
+start 00000272 end 000002dd length   107 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)jltab.o:
+start 000085e0 end 00008606 length    38 section .text
+start 000002dd end 0000030d length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)land.o:
+start 00008606 end 0000861e length    24 section .text
+start 0000030d end 0000033c length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o:
+start 0000861e end 0000863e length    32 section .text
+start 0000033c end 0000036b length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadc.o:
+start 0000863e end 0000864e length    16 section .text
+start 0000036b end 0000039b length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgand.o:
+start 0000864e end 00008665 length    23 section .text
+start 0000039b end 000003cb length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgor.o:
+start 00008665 end 0000867c length    23 section .text
+start 000003cb end 000003fa length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgsbc.o:
+start 0000867c end 00008692 length    22 section .text
+start 000003fa end 0000042a length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o:
+start 0000002d end 00000031 length     4 section .ubsct
+start 0000042a end 00000459 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lrzmp.o:
+start 00008692 end 000086a6 length    20 section .text
+start 00000459 end 00000489 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o:
+start 000086a6 end 000086b8 length    18 section .text
+start 00000489 end 000004b8 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lursh.o:
+start 000086b8 end 000086c7 length    15 section .text
+start 000004b8 end 000004e8 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lzmp.o:
+start 000086c7 end 000086da length    19 section .text
+start 000004e8 end 00000517 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o:
+start 000086da end 000086ec length    18 section .text
+start 00000517 end 00000546 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o:
+start 00000031 end 00000034 length     3 section .ubsct
+start 00000546 end 00000575 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o:
+start 00000034 end 00000037 length     3 section .ubsct
+start 00000575 end 000005a4 length    47 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 000086ec end 000086ed length     1 section .text
+start 00001d0d end 00001e78 length   363 section .debug
+start 000005a4 end 00000620 length   124 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\keydeal.o:
+_f_KeyDeal                  6   (4)
+_f_KeyDealInit             19   (2)
+
+Debug\keydriver.o:
+_f_IsSingleKey             10   (8)
+_f_KeyDriverDeal           15   (5) *** pointer() ***
+_f_KeyDriverInit           17   (8)
+
+Debug\keydriverhardware.o:
+_f_GetKeys             >   10   (8)
+
+Debug\main.o:
+_main                  >   21   (2)
+
+Debug\stm8_interrupt_vector.o:
+f_NonHandledInterrupt  >    6   (6)
+
+Debug\subfunction.o:
+_f_AddRunTimerHour     >    4   (2)
+_f_AddRunTimerMinute   >    4   (2)
+_f_AddU16Data               2   (2)
+_f_AddU32Data          >    6   (4)
+_f_AddU8Data           >    2   (2)
+_f_DecU16Data          >    2   (2)
+_f_DecU32Data          >    6   (4)
+_f_DecU8Data           >    2   (2)
+_f_Memset                   9   (9)
+
+Stack size: 27
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > __stext: (0)
+
+   2 > _f_AddRunTimerHour: (2)
+   3      + _f_AddU16Data: (2)
+       
+   4 > _f_AddRunTimerMinute: (2)
+   5      + _f_AddU16Data --> 3
+       
+   6 > _f_AddU32Data: (4)
+
+   7 > _f_AddU8Data: (2)
+
+   8 > _f_DecU16Data: (2)
+
+   9 > _f_DecU32Data: (4)
+
+  10 > _f_DecU8Data: (2)
+
+  11 > _f_GetKeys: (8)
+
+  12 > _main: (2)
+  13      + _f_KeyDealInit: (2)
+  14      |    + _f_KeyDriverInit: (8)
+  15      |    |    + _f_Memset: (9)
+          |    | 
+          | 
+  16      + _f_KeyDriverDeal: (5)
+  17      |    + _f_AddU16Data --> 3
+  18      |    + _f_IsSingleKey: (8)
+  19      |    + (_f_KeyDeal) ...
+          | 
+       
+  20 > f_NonHandledInterrupt: (6)
+
+  21   _f_AddU16Data --> 3
+
+  22   _f_IsSingleKey --> 18
+
+  23   _f_KeyDeal: (4)
+
+  24   _f_KeyDealInit --> 13
+
+  25   _f_KeyDriverDeal --> 16
+
+  26   _f_KeyDriverInit --> 14
+
+  27   _f_Memset --> 15
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_Tab_KeySelfState       000080a0   defined in Debug\keydriverconfig.o section .const
+                                   used in Debug\keydriver.o
+__endmem                000013ff   defined in command file
+                                   *** not used ***
+__endzp                 00000037   defined in command file section .ubsct
+                                   used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__idesc__               000080b6   defined in linker section .init
+                                   used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__memory                00000100   defined in command file section .bss
+                                   used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__stack                 000017ff   defined in command file
+                                   used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__startmem              00000100   defined in command file section .bss
+                                   *** not used ***
+__stext                 000080b9   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+                                   used in Debug\stm8_interrupt_vector.o
+__vectab                00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_exit                   00008107   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+_f_AddRunTimerHour      00008166   defined in Debug\subfunction.o section .text
+_f_AddRunTimerMinute    0000815a   defined in Debug\subfunction.o section .text
+_f_AddU16Data           00008115   defined in Debug\subfunction.o section .text
+                                   used in Debug\keydriver.o
+_f_AddU32Data           00008136   defined in Debug\subfunction.o section .text
+_f_AddU8Data            00008109   defined in Debug\subfunction.o section .text
+_f_DecU16Data           00008128   defined in Debug\subfunction.o section .text
+_f_DecU32Data           0000814b   defined in Debug\subfunction.o section .text
+_f_DecU8Data            00008110   defined in Debug\subfunction.o section .text
+_f_GetKeys              00008578   defined in Debug\keydriverhardware.o section .text
+_f_IsSingleKey          000082b7   defined in Debug\keydriver.o section .text
+_f_KeyDeal              000081a0   defined in Debug\keydeal.o section .text
+_f_KeyDealInit          000082a6   defined in Debug\keydeal.o section .text
+                                   used in Debug\main.o
+_f_KeyDriverDeal        000082e5   defined in Debug\keydriver.o section .text
+                                   used in Debug\main.o
+_f_KeyDriverInit        0000854a   defined in Debug\keydriver.o section .text
+                                   used in Debug\keydeal.o
+_f_Memset               0000817b   defined in Debug\subfunction.o section .text
+                                   used in Debug\keydriver.o
+_keyDriver              00000000   defined in Debug\keydeal.o section .ubsct
+                                   used in Debug\main.o
+_keyHardware            000080af   defined in Debug\keydriverhardware.o section .const
+                                   used in Debug\keydeal.o
+_main                   000085d5   defined in Debug\main.o section .text
+                                   used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+_sysTimeFlag            00000022   defined in Debug\main.o section .ubsct
+                                   used in Debug\keydriver.o
+                                           Debug\keydriverhardware.o
+c_jltab                 000085e0   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)jltab.o section .text
+                                   used in Debug\keydeal.o
+c_land                  00008606   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)land.o section .text
+                                   used in Debug\keydriver.o
+c_lcmp                  0000861e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o section .text
+                                   used in Debug\subfunction.o Debug\keydriver.o
+                                           Debug\keydriverhardware.o
+c_lgadc                 0000863e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadc.o section .text
+                                   used in Debug\subfunction.o
+c_lgand                 0000864e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgand.o section .text
+                                   used in Debug\keydriver.o
+c_lgor                  00008665   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgor.o section .text
+                                   used in Debug\keydeal.o Debug\keydriver.o
+c_lgsbc                 0000867c   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgsbc.o section .text
+                                   used in Debug\subfunction.o
+c_lreg                  0000002d   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o section .ubsct
+                                   used in Debug\keydeal.o Debug\keydriver.o
+                                           (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)jltab.o
+                                           (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)land.o
+                                           (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o
+                                           (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgand.o
+                                           (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgor.o
+                                           (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lrzmp.o
+                                           (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o
+                                           (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lursh.o
+                                           (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o
+c_lrzmp                 00008692   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lrzmp.o section .text
+                                   used in Debug\keydriver.o
+c_ltor                  000086a6   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o section .text
+                                   used in Debug\subfunction.o Debug\keydeal.o
+                                           Debug\keydriver.o
+                                           Debug\keydriverhardware.o
+c_lursh                 000086b8   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lursh.o section .text
+                                   used in Debug\keydriver.o
+c_lzmp                  000086c7   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lzmp.o section .text
+                                   used in Debug\subfunction.o Debug\keydriver.o
+c_rtol                  000086da   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o section .text
+                                   used in Debug\keydriver.o
+c_x                     00000031   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o section .ubsct
+                                   used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                           (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)jltab.o
+c_y                     00000034   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o section .ubsct
+                                   used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+f_NonHandledInterrupt   000086ec   defined in Debug\stm8_interrupt_vector.o section .text

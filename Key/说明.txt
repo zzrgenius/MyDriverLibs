@@ -1,0 +1,7 @@
+包含文件说明
+1、KeyDriver_API.md  按键驱动API文档，makedown编写
+2、KeyDriver_API说明文档.pdf 为导出的API文档，方便查看
+3、按键驱动.xmind  为初步的思维导图
+4、Proj 为编译测试工程
+5、SI4  为SourceInsight4创建的工程
+6、Src  源代码文件夹

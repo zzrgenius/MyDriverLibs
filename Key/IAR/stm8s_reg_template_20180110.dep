@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2951067774</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\code\middleware\src\mid_key.c</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\scr\stm8s_clock.c</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\scr\stm8s_tim4.c</file>
+      <file>$PROJ_DIR$\code\middleware\src\mid_adder_subtractor.c</file>
+      <file>$PROJ_DIR$\code\middleware\src\parm_check.c</file>
+      <file>$PROJ_DIR$\code\user\src\bsp.c</file>
+      <file>$PROJ_DIR$\code\user\src\key_app.c</file>
+      <file>$PROJ_DIR$\code\user\src\key_cfg.c</file>
+      <file>$PROJ_DIR$\code\user\src\key_hardware.c</file>
+      <file>$PROJ_DIR$\code\user\src\KeyDeal.c</file>
+      <file>$PROJ_DIR$\code\user\src\KeyDriver.c</file>
+      <file>$PROJ_DIR$\code\user\src\KeyDriverConfig.c</file>
+      <file>$PROJ_DIR$\code\user\src\KeyDriverHardware.c</file>
+      <file>$PROJ_DIR$\code\user\src\main.c</file>
+      <file>$PROJ_DIR$\code\user\src\stm8s_it.c</file>
+      <file>$PROJ_DIR$\code\user\src\SubFunction.c</file>
+      <file>$PROJ_DIR$\code\user\src\timer.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_clock.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\parm_check.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_tim4.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mid_adder_subtractor.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mid_key.o</file>
+      <file>$PROJ_DIR$\code\user\inc\KeyDriver.h</file>
+      <file>$PROJ_DIR$\code\user\inc\TimeFlag.h</file>
+      <file>$PROJ_DIR$\code\user\inc\KeyDriverConfig.h</file>
+      <file>$PROJ_DIR$\code\user\inc\KeyDeal.h</file>
+      <file>$PROJ_DIR$\code\user\inc\DataType.h</file>
+      <file>$PROJ_DIR$\code\user\inc\SubFunction.h</file>
+      <file>$PROJ_DIR$\code\user\inc\stm8s_it.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+      <file>$PROJ_DIR$\Debug\List\stm8s_reg_template_20180110.map</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8s003f3.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\KeyDriverHardware.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\KeyDeal.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\key_cfg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\key_app.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\key_hardware.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mid_key.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\KeyDriver.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\KeyDriverConfig.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SubFunction.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mid_adder_subtractor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_it.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\parm_check.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_tim4.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_clock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\key_hardware.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\key_app.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\key_cfg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\KeyDriverConfig.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\KeyDeal.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\KeyDriverHardware.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\KeyDriver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SubFunction.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_it.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\stm8s_reg_template_20180110.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_reg_template_20180110.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_wd.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_uart2.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_tim3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\code\middleware\inc\parm_check.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\iostm8s003f3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_ad.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_tim1.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_flash.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\code\user\inc\drive.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_clock.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_gpio.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_uart1.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_beep.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_tim2.h</file>
+      <file>$PROJ_DIR$\code\lib\MyRegLibrary\inc\stm8s_tim4.h</file>
+      <file>$PROJ_DIR$\code\middleware\inc\test_mid_uart_rx.h</file>
+      <file>$PROJ_DIR$\code\middleware\inc\typedef.h</file>
+      <file>$PROJ_DIR$\code\middleware\inc\mid_adder_subtractor.h</file>
+      <file>$PROJ_DIR$\code\user\inc\key_cfg.h</file>
+      <file>$PROJ_DIR$\code\middleware\inc\mid_adc.h</file>
+      <file>$PROJ_DIR$\code\user\inc\main.h</file>
+      <file>$PROJ_DIR$\code\middleware\inc\test_mid_uart_tx.h</file>
+      <file>$PROJ_DIR$\code\middleware\inc\mid_key.h</file>
+      <file>$PROJ_DIR$\code\user\inc\key_hardware.h</file>
+      <file>$PROJ_DIR$\code\user\inc\key_app.h</file>
+      <file>$PROJ_DIR$\code\user\inc\bsp.h</file>
+      <file>$PROJ_DIR$\code\user\inc\timer.h</file>
+      <file>$PROJ_DIR$\code\user\src\KeyDriverConfig.h</file>
+      <file>$PROJ_DIR$\code\user\src\KeyDriver.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\code\middleware\src\mid_key.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 85 69 77 79 64 101 66 83 72 68 73 74 97 75 87 84 78</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 72 66 69 75 83 87 84 85 68 78 77 64 73 79 74 101 97 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\lib\MyRegLibrary\scr\stm8s_clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 65 67 75 71 68 69 76 70 74 72 73 77 78 79 80 81 82 86 84 85 83 87 88 89 90 91 92 93 95 96 99 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 99 72 66 69 75 83 87 84 85 68 78 77 79 73 86 76 67 88 65 89 80 90 70 91 81 92 95 71 93 82 74 96 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\lib\MyRegLibrary\scr\stm8s_tim4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 65 67 75 71 68 69 76 70 74 72 73 77 78 79 80 81 82 86 84 85 83 87 88 89 90 91 92 93 95 96 99 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 99 72 66 69 75 83 87 84 85 68 78 77 79 73 86 76 67 88 65 89 80 90 70 91 81 92 95 71 93 82 74 96 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\middleware\src\mid_adder_subtractor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 87 72 84 69 75 85 83 96</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 96 72 66 69 75 83 87 84 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\middleware\src\parm_check.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 72 69 87 68 66 84 85 83 74 75 78</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 74 72 66 69 75 83 87 84 85 68 78 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 61 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\bsp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 65 67 75 71 68 69 76 70 74 72 73 77 78 79 80 81 82 86 84 85 83 87 88 89 90 91 92 93 95 96 99 104 98 94 100 101 105 103 97 102</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 99 72 66 69 75 83 87 84 85 68 78 77 79 73 86 76 67 88 65 89 80 90 70 91 81 92 95 71 93 82 74 96 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\key_app.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 65 67 75 71 68 69 76 70 74 72 73 77 78 79 80 81 82 86 84 85 83 87 88 89 90 91 92 93 95 96 99 101 98 103 94 100 104 105 97 102</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 99 72 66 69 75 83 87 84 85 68 78 77 79 73 86 76 67 88 65 89 80 90 70 91 81 92 95 71 93 82 74 96 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\key_cfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 65 67 75 71 68 69 76 70 74 72 73 77 78 79 80 81 82 86 84 85 83 87 88 89 90 91 92 93 95 96 99 97 98 94 100 101 104 105 103 102</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 99 72 66 69 75 83 87 84 85 68 78 77 79 73 86 76 67 88 65 89 80 90 70 91 81 92 95 71 93 82 74 96 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\key_hardware.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 65 67 75 71 68 69 76 70 74 72 73 77 78 79 80 81 82 86 84 85 83 87 88 89 90 91 92 93 95 96 99 102 98 94 100 101 104 105 103 97</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 99 72 66 69 75 83 87 84 85 68 78 77 79 73 86 76 67 88 65 89 80 90 70 91 81 92 95 71 93 82 74 96 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\KeyDeal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 85 69 24 84 83 66 22 26 68 78 75 87 25</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 25 22 26 68 66 69 75 83 87 84 85 78 77 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\KeyDriver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106 68 87 66 26 27 78 84 85 83 69 107 23 77 75</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 22 26 68 66 69 75 83 87 84 85 78 77 24 27 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\KeyDriverConfig.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 66 78 26 75 87 69 77 84 85 83 24</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 24 26 68 66 69 75 83 87 84 85 78 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\KeyDriverHardware.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 26 70 76 68 87 65 71 86 78 84 85 83 69 79 80 81 82 23 24 77 75 72 88 89 90 91 92 93 67 95 22 74 96 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 22 26 68 66 69 75 83 87 84 85 78 77 24 23 86 76 67 72 79 88 65 89 80 90 70 91 81 92 95 71 93 82 74 96 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 98 77 79 73 81 102 24 69 78 80 82 104 25 68 75 76 65 70 71 74 100 103 86 23 72 84 85 83 87 88 89 90 91 92 93 95 96 94 101 105 97 67 99 22 26</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 99 72 66 69 75 83 87 84 85 68 78 77 79 73 86 76 67 88 65 89 80 90 70 91 81 92 95 71 93 82 74 96 98 94 100 101 104 105 103 97 102 25 22 26 24 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\stm8s_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 65 67 75 71 68 69 76 70 74 72 73 77 78 79 80 81 82 86 84 85 83 87 88 89 90 91 92 93 95 96 99 28 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 99 72 66 69 75 83 87 84 85 68 78 77 79 73 86 76 67 88 65 89 80 90 70 91 81 92 95 71 93 82 74 96 98 94 100 101 104 105 103 97 102 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\SubFunction.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 26 77 84 87 68 66 78 75 85 83 27</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 27 26 68 66 69 75 83 87 84 85 78 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\code\user\src\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 65 67 75 71 68 69 76 70 74 72 73 77 78 79 80 81 82 86 84 85 83 87 88 89 90 91 92 93 95 96 99 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 99 72 66 69 75 83 87 84 85 68 78 77 79 73 86 76 67 88 65 89 80 90 70 91 81 92 95 71 93 82 74 96 98 94 100 101 104 105 103 97 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\stm8s_reg_template_20180110.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 32 35 37 36 38 34 40 41 33 43 20 21 18 17 45 19 42 46 29 31</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

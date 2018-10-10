@@ -1,0 +1,35 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files...\src\cc2500.c.Config.0]
+ExternDep= ..\src\cc2500.c  "D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Hstm8\mods0.h"  ..\src\Include.h ..\src\stm8s103f.h ..\src\Main.h ..\src\Define.h  ..\src\PriDefine.h ..\src\SubFunction.h ..\src\Cpu_init.h ..\src\Timer.h  ..\src\Led.h ..\src\Uart1.h ..\src\RFcommunication.h ..\src\CC2500.h  ..\src\Eeprom.h
+
+[Root.Source Files...\src\cpu_init.c.Config.0]
+ExternDep= ..\src\cpu_init.c  "D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Hstm8\mods0.h"  ..\src\Include.h ..\src\stm8s103f.h ..\src\Main.h ..\src\Define.h  ..\src\PriDefine.h ..\src\SubFunction.h ..\src\Cpu_init.h ..\src\Timer.h  ..\src\Led.h ..\src\Uart1.h ..\src\RFcommunication.h ..\src\CC2500.h  ..\src\Eeprom.h
+
+[Root.Source Files...\src\eeprom.c.Config.0]
+ExternDep= ..\src\eeprom.c  "D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Hstm8\mods0.h"  ..\src\Include.h ..\src\stm8s103f.h ..\src\Main.h ..\src\Define.h  ..\src\PriDefine.h ..\src\SubFunction.h ..\src\Cpu_init.h ..\src\Timer.h  ..\src\Led.h ..\src\Uart1.h ..\src\RFcommunication.h ..\src\CC2500.h  ..\src\Eeprom.h
+
+[Root.Source Files...\src\led.c.Config.0]
+ExternDep= ..\src\led.c  "D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Hstm8\mods0.h"  ..\src\Include.h ..\src\stm8s103f.h ..\src\Main.h ..\src\Define.h  ..\src\PriDefine.h ..\src\SubFunction.h ..\src\Cpu_init.h ..\src\Timer.h  ..\src\Led.h ..\src\Uart1.h ..\src\RFcommunication.h ..\src\CC2500.h  ..\src\Eeprom.h
+
+[Root.Source Files...\src\rfcommunication.c.Config.0]
+ExternDep= ..\src\rfcommunication.c  "D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Hstm8\mods0.h"  ..\src\Include.h ..\src\stm8s103f.h ..\src\Main.h ..\src\Define.h  ..\src\PriDefine.h ..\src\SubFunction.h ..\src\Cpu_init.h ..\src\Timer.h  ..\src\Led.h ..\src\Uart1.h ..\src\RFcommunication.h ..\src\CC2500.h  ..\src\Eeprom.h
+
+[Root.Source Files...\src\subfunction.c.Config.0]
+ExternDep= ..\src\subfunction.c  "D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Hstm8\mods0.h"  ..\src\Include.h ..\src\stm8s103f.h ..\src\Main.h ..\src\Define.h  ..\src\PriDefine.h ..\src\SubFunction.h ..\src\Cpu_init.h ..\src\Timer.h  ..\src\Led.h ..\src\Uart1.h ..\src\RFcommunication.h ..\src\CC2500.h  ..\src\Eeprom.h
+
+[Root.Source Files...\src\timer.c.Config.0]
+ExternDep= ..\src\timer.c  "D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Hstm8\mods0.h"  ..\src\Include.h ..\src\stm8s103f.h ..\src\Main.h ..\src\Define.h  ..\src\PriDefine.h ..\src\SubFunction.h ..\src\Cpu_init.h ..\src\Timer.h  ..\src\Led.h ..\src\Uart1.h ..\src\RFcommunication.h ..\src\CC2500.h  ..\src\Eeprom.h
+
+[Root.Source Files...\src\uart1.c.Config.0]
+ExternDep= ..\src\uart1.c  "D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Hstm8\mods0.h"  ..\src\Include.h ..\src\stm8s103f.h ..\src\Main.h ..\src\Define.h  ..\src\PriDefine.h ..\src\SubFunction.h ..\src\Cpu_init.h ..\src\Timer.h  ..\src\Led.h ..\src\Uart1.h ..\src\RFcommunication.h ..\src\CC2500.h  ..\src\Eeprom.h
+
+[Root.Source Files.main.c.Config.0]
+ExternDep= main.c  "D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Hstm8\mods0.h"  ..\src\Include.h ..\src\stm8s103f.h ..\src\Main.h ..\src\Define.h  ..\src\PriDefine.h ..\src\SubFunction.h ..\src\Cpu_init.h ..\src\Timer.h  ..\src\Led.h ..\src\Uart1.h ..\src\RFcommunication.h ..\src\CC2500.h  ..\src\Eeprom.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "D:\Program Files (x86)\STMicroelectronics\CXSTM8_32K\Hstm8\mods0.h"  ..\src\Include.h ..\src\stm8s103f.h ..\src\Main.h ..\src\Define.h  ..\src\PriDefine.h ..\src\SubFunction.h ..\src\Cpu_init.h ..\src\Timer.h  ..\src\Led.h ..\src\Uart1.h ..\src\RFcommunication.h ..\src\CC2500.h  ..\src\Eeprom.h

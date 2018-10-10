@@ -1,0 +1,488 @@
+###############################################################################
+#
+# IAR ELF Linker V2.10.4.157 for STM8                     16/Apr/2018  12:57:34
+# Copyright 2010-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Exe\stm8s_reg_template_20180110.out
+#    Map file     =  
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\List\stm8s_reg_template_20180110.map
+#    Command line =  
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\bsp.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\key_app.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\key_cfg.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\key_hardware.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\KeyDeal.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\KeyDriver.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\KeyDriverConfig.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\KeyDriverHardware.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\main.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\mid_adder_subtractor.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\mid_key.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\parm_check.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\stm8s_clock.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\stm8s_it.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\stm8s_tim4.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\SubFunction.o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj\timer.o
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb -o
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Exe\stm8s_reg_template_20180110.out
+#        --map
+#        C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\List\stm8s_reg_template_20180110.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.0\stm8\config\lnkstm8s003f3.icf" --config_def _CSTACK_SIZE=0x100
+#        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__code_model               = small
+__core                     = stm8
+__data_model               = medium
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__rt_version               = 4
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at start of [0x000000-0x0000ff] { rw section .vregs };
+"A2":  place at end of [0x000000-0x0003ff] { block CSTACK };
+"P2":  place in [from 0x000000 to 0x0003ff] {
+          block HEAP, rw section __DLIB_PERTHREAD, rw section .far.bss,
+          rw section .far.data, rw section .far.noinit,
+          rw section .far_func.textrw, rw section .huge.bss,
+          rw section .huge.data, rw section .huge.noinit,
+          rw section .huge_func.textrw, rw section .iar.dynexit,
+          rw section .near.bss, rw section .near.data, rw section .near.noinit,
+          rw section .near_func.textrw };
+"A3":  place at start of [0x008000-0x009fff] { block INTVEC };
+"P3":  place in [from 0x008000 to 0x009fff] {
+          ro section __DLIB_PERTHREAD_init, ro section .far.data_init,
+          ro section .far_func.textrw_init, ro section .huge.data_init,
+          ro section .huge_func.textrw_init, ro section .iar.init_table,
+          ro section .init_array, ro section .near.data_init,
+          ro section .near.rodata, ro section .near_func.text,
+          ro section .near_func.textrw_init, ro section .tiny.data_init,
+          ro section .tiny.rodata_init };
+
+  Section            Kind      Address    Size  Object
+  -------            ----      -------    ----  ------
+"A1":                                     0x10
+  .vregs             uninit   0x000000    0x10  vregs.o [4]
+                            - 0x000010    0x10
+
+"P2":                                     0xae
+  P2 s0                       0x000010    0x36  <Init block>
+    .near.data       inited   0x000010    0x12  key_cfg.o [1]
+    .near.data       inited   0x000022     0xc  key_cfg.o [1]
+    .near.data       inited   0x00002e     0xc  key_cfg.o [1]
+    .near.data       inited   0x00003a     0xc  key_cfg.o [1]
+  .near.bss          zero     0x000046    0x24  KeyDriver.o [1]
+  .near.bss          zero     0x00006a    0x20  mid_key.o [1]
+  .near.bss          zero     0x00008a    0x1d  KeyDeal.o [1]
+  .near.bss          zero     0x0000a7     0xb  main.o [1]
+  .near.bss          zero     0x0000b2     0x4  KeyDriverHardware.o [1]
+  .near.bss          zero     0x0000b6     0x2  key_app.o [1]
+  .near.bss          zero     0x0000b8     0x2  KeyDeal.o [1]
+  .near.bss          zero     0x0000ba     0x2  timer.o [1]
+  .near.bss          zero     0x0000bc     0x1  KeyDriverHardware.o [1]
+  .near.bss          zero     0x0000bd     0x1  timer.o [1]
+                            - 0x0000be    0xae
+
+"A2":                                    0x100
+  CSTACK                      0x000300   0x100  <Block>
+    CSTACK           uninit   0x000300   0x100  <Block tail>
+                            - 0x000400   0x100
+
+Absolute sections, part 1 of 10:           0x1
+  .near.noinit       uninit   0x00500b     0x1  KeyDriverHardware.o [1]
+                            - 0x00500c     0x1
+
+Absolute sections, part 2 of 10:           0x2
+  .near.noinit       uninit   0x0050c0     0x1  stm8s_clock.o [1]
+  .near.noinit       uninit   0x0050c1     0x1  stm8s_clock.o [1]
+                            - 0x0050c2     0x2
+
+Absolute sections, part 3 of 10:           0x1
+  .near.noinit       uninit   0x0050c6     0x1  stm8s_clock.o [1]
+                            - 0x0050c7     0x1
+
+Absolute sections, part 4 of 10:           0x1
+  .near.noinit       uninit   0x0050e0     0x1  main.o [1]
+                            - 0x0050e1     0x1
+
+Absolute sections, part 5 of 10:           0x1
+  .near.noinit       uninit   0x005255     0x1  stm8s_it.o [1]
+                            - 0x005256     0x1
+
+Absolute sections, part 6 of 10:           0x1
+  .near.noinit       uninit   0x005304     0x1  stm8s_it.o [1]
+                            - 0x005305     0x1
+
+Absolute sections, part 7 of 10:           0x1
+  .near.noinit       uninit   0x005340     0x1  stm8s_tim4.o [1]
+                            - 0x005341     0x1
+
+Absolute sections, part 8 of 10:           0x2
+  .near.noinit       uninit   0x005343     0x1  stm8s_tim4.o [1]
+  .near.noinit       uninit   0x005344     0x1  stm8s_tim4.o [1]
+                            - 0x005345     0x2
+
+Absolute sections, part 9 of 10:           0x2
+  .near.noinit       uninit   0x005347     0x1  stm8s_tim4.o [1]
+  .near.noinit       uninit   0x005348     0x1  stm8s_tim4.o [1]
+                            - 0x005349     0x2
+
+Absolute sections, part 10 of 10:          0x1
+  .near.noinit       uninit   0x005400     0x1  stm8s_it.o [1]
+                            - 0x005401     0x1
+
+"A3":                                     0x80
+  INTVEC                      0x008000    0x80  <Block>
+    .intvec          const    0x008000    0x80  interrupt.o [4]
+                            - 0x008080    0x80
+
+"P3":                                   0x11e4
+  .near_func.text    ro code  0x008080   0x37d  KeyDriver.o [1]
+  .near_func.text    ro code  0x0083fd   0x2cb  KeyDriver.o [1]
+  .near_func.text    ro code  0x0086c8   0x2a9  mid_key.o [1]
+  .near_func.text    ro code  0x008971   0x174  KeyDeal.o [1]
+  .near_func.text    ro code  0x008ae5    0xd9  vreg_util.o [4]
+  .near_func.text    ro code  0x008bbe    0xcb  mid_key.o [1]
+  .near_func.text    ro code  0x008c89    0xa2  KeyDriverHardware.o [1]
+  .near_func.text    ro code  0x008d2b    0x5d  long.o [4]
+  .near_func.text    ro code  0x008d88    0x4c  timer.o [1]
+  .near_func.text    ro code  0x008dd4    0x46  key_hardware.o [1]
+  .near_func.text    ro code  0x008e1a    0x42  KeyDriver.o [1]
+  .near_func.text    ro code  0x008e5c    0x3d  KeyDriver.o [1]
+  .near_func.text    ro code  0x008e99    0x37  mid_key.o [1]
+  .near_func.text    ro code  0x008ed0    0x36  main.o [1]
+  .near_func.text    ro code  0x008f06    0x34  long_util.o [4]
+  .near_func.text    ro code  0x008f3a    0x33  key_cfg.o [1]
+  .near_func.text    ro code  0x008f6d    0x32  mid_key.o [1]
+  .near_func.text    ro code  0x008f9f    0x31  mid_key.o [1]
+  .near_func.text    ro code  0x008fd0    0x28  init_small.o [4]
+  .near_func.text    ro code  0x008ff8    0x22  mid_adder_subtractor.o [1]
+  .iar.init_table    const    0x00901a    0x12  - Linker created -
+  .near_func.text    ro code  0x00902c    0x1f  stm8s_it.o [1]
+  .near_func.text    ro code  0x00904b    0x1e  short.o [4]
+  .near_func.text    ro code  0x009069    0x1e  init_small.o [4]
+  .near_func.text    ro code  0x009087    0x18  SubFunction.o [1]
+  .near_func.text    ro code  0x00909f    0x17  init.o [4]
+  .near_func.text    ro code  0x0090b6    0x15  stm8s_tim4.o [1]
+  .near_func.text    ro code  0x0090cb    0x15  memset.o [4]
+  .near_func.text    ro code  0x0090e0    0x14  __dbg_xxexit.o [3]
+  .near_func.text    ro code  0x0090f4    0x13  stm8s_clock.o [1]
+  .near_func.text    ro code  0x009107    0x13  cstartup.o [4]
+  .near_func.text    ro code  0x00911a    0x12  SubFunction.o [1]
+  .near_func.text    ro code  0x00912c    0x10  KeyDeal.o [1]
+  .near.rodata       const    0x00913c     0xf  KeyDriverConfig.o [1]
+  .near_func.text    ro code  0x00914b     0xe  bsp.o [1]
+  .near_func.text    ro code  0x009159     0xe  mid_key.o [1]
+  .near_func.text    ro code  0x009167     0xd  bsp.o [1]
+  .near.rodata       const    0x009174     0xc  KeyDriverConfig.o [1]
+  .near_func.text    ro code  0x009180     0xa  key_app.o [1]
+  .near_func.text    ro code  0x00918a     0xa  key_app.o [1]
+  .near_func.text    ro code  0x009194     0xa  key_app.o [1]
+  .near_func.text    ro code  0x00919e     0xa  key_app.o [1]
+  .near_func.text    ro code  0x0091a8     0xa  key_app.o [1]
+  .near_func.text    ro code  0x0091b2     0xa  key_app.o [1]
+  .near_func.text    ro code  0x0091bc     0xa  stm8s_it.o [1]
+  .near_func.text    ro code  0x0091c6     0xa  stm8s_it.o [1]
+  .near_func.text    ro code  0x0091d0     0xa  stm8s_it.o [1]
+  .near_func.text    ro code  0x0091da     0x9  key_app.o [1]
+  .near_func.text    ro code  0x0091e3     0x9  key_app.o [1]
+  .near_func.text    ro code  0x0091ec     0x8  key_app.o [1]
+  .near_func.text    ro code  0x0091f4     0x8  key_app.o [1]
+  .near_func.text    ro code  0x0091fc     0x7  key_app.o [1]
+  .near_func.text    ro code  0x009203     0x7  key_app.o [1]
+  .near_func.text    ro code  0x00920a     0x6  char.o [4]
+  .near_func.text    ro code  0x009210     0x5  key_app.o [1]
+  .near_func.text    ro code  0x009215     0x5  cexit.o [4]
+  .near_func.text    ro code  0x00921a     0x4  main.o [1]
+  .near.rodata       const    0x00921e     0x3  KeyDriverHardware.o [1]
+  .near_func.text    ro code  0x009221     0x3  interrupt.o [4]
+  .near_func.text    ro code  0x009224     0x3  low_level_init.o [4]
+  .near_func.text    ro code  0x009227     0x3  exit.o [4]
+  .near_func.text    ro code  0x00922a     0x3  unhandled_exception.o [4]
+  .near_func.text    ro code  0x00922d     0x1  __dbg_break.o [3]
+  Initializer bytes  const    0x00922e    0x36  <for P2 s0>
+                            - 0x009264  0x11e4
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Zero (__iar_zero_init2)
+    1 destination range, total size 0x78:
+          0x000046  0x78
+
+Copy (__iar_copy_init2)
+    1 source range, total size 0x36:
+          0x00922e  0x36
+    1 destination range, total size 0x36:
+          0x000010  0x36
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data  rw data
+                                                        (abs)
+    ------                  -------  -------  -------  -------
+C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj: [1]
+    KeyDeal.o                   388                31
+    KeyDriver.o               1 735                36
+    KeyDriverConfig.o                     27
+    KeyDriverHardware.o         162        3        5        1
+    SubFunction.o                42
+    bsp.o                        27
+    key_app.o                   113                 2
+    key_cfg.o                    51       54       54
+    key_hardware.o               70
+    main.o                       58                11        1
+    mid_adder_subtractor.o       34
+    mid_key.o                 1 052                32
+    stm8s_clock.o                19                          3
+    stm8s_it.o                   61                          3
+    stm8s_tim4.o                 21                          5
+    timer.o                      76                 3
+    ----------------------------------------------------------
+    Total:                    3 909       84      174       13
+
+command line: [2]
+    ----------------------------------------------------------
+    Total:
+
+dbgstm8smd.a: [3]
+    __dbg_break.o                 1
+    __dbg_xxexit.o               20
+    ----------------------------------------------------------
+    Total:                       21
+
+dlstm8smn.a: [4]
+    cexit.o                       5
+    char.o                        6
+    cstartup.o                   19
+    exit.o                        3
+    init.o                       23
+    init_small.o                 70
+    interrupt.o                   3      128
+    long.o                       93
+    long_util.o                  52
+    low_level_init.o              3
+    memset.o                     21
+    short.o                      30
+    unhandled_exception.o         3
+    vreg_util.o                 217
+    vregs.o                                        16
+    ----------------------------------------------------------
+    Total:                      548      128       16
+
+    Linker created                        18      256
+--------------------------------------------------------------
+    Grand Total:              4 478      230      446       13
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address   Size  Type      Object
+-----                    -------   ----  ----      ------
+.iar.init_table$$Base   0x00901a          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00902c          --   Gb  - Linker created -
+?and32_l0_l0_0x         0x008d44         Code  Gb  long.o [4]
+?b0                     0x000000         Data  Gb  vregs.o [4]
+?b1                     0x000001         Data  Gb  vregs.o [4]
+?b10                    0x00000a         Data  Gb  vregs.o [4]
+?b11                    0x00000b         Data  Gb  vregs.o [4]
+?b12                    0x00000c         Data  Gb  vregs.o [4]
+?b13                    0x00000d         Data  Gb  vregs.o [4]
+?b14                    0x00000e         Data  Gb  vregs.o [4]
+?b15                    0x00000f         Data  Gb  vregs.o [4]
+?b2                     0x000002         Data  Gb  vregs.o [4]
+?b3                     0x000003         Data  Gb  vregs.o [4]
+?b4                     0x000004         Data  Gb  vregs.o [4]
+?b5                     0x000005         Data  Gb  vregs.o [4]
+?b6                     0x000006         Data  Gb  vregs.o [4]
+?b7                     0x000007         Data  Gb  vregs.o [4]
+?b8                     0x000008         Data  Gb  vregs.o [4]
+?b9                     0x000009         Data  Gb  vregs.o [4]
+?e0                     0x000001         Data  Gb  vregs.o [4]
+?e1                     0x000005         Data  Gb  vregs.o [4]
+?e2                     0x000009         Data  Gb  vregs.o [4]
+?e3                     0x00000d         Data  Gb  vregs.o [4]
+?epilogue_l2            0x008b6d         Code  Gb  vreg_util.o [4]
+?epilogue_l2_w6         0x008b71         Code  Gb  vreg_util.o [4]
+?epilogue_w4            0x008b78         Code  Gb  vreg_util.o [4]
+?l0                     0x000000         Data  Gb  vregs.o [4]
+?l1                     0x000004         Data  Gb  vregs.o [4]
+?l2                     0x000008         Data  Gb  vregs.o [4]
+?l3                     0x00000c         Data  Gb  vregs.o [4]
+?load32_0x_l0           0x008f1e         Code  Gb  long_util.o [4]
+?load32_0x_l1           0x008f2c         Code  Gb  long_util.o [4]
+?load32_l0_0x           0x008f06         Code  Gb  long_util.o [4]
+?load32_l1_0x           0x008f12         Code  Gb  long_util.o [4]
+?mov_e0_e1              0x008b8d         Code  Gb  vreg_util.o [4]
+?mov_e0_e2              0x008b9a         Code  Gb  vreg_util.o [4]
+?mov_e1_e0              0x008ba7         Code  Gb  vreg_util.o [4]
+?mov_e2_e0              0x008bb4         Code  Gb  vreg_util.o [4]
+?mov_l0_l1              0x008b8a         Code  Gb  vreg_util.o [4]
+?mov_l0_l2              0x008b97         Code  Gb  vreg_util.o [4]
+?mov_l1_l0              0x008ba4         Code  Gb  vreg_util.o [4]
+?mov_l2_l0              0x008bb1         Code  Gb  vreg_util.o [4]
+?mov_w0_w1              0x008b7c         Code  Gb  vreg_util.o [4]
+?mov_w1_w3              0x008b90         Code  Gb  vreg_util.o [4]
+?mov_w1_w5              0x008b9d         Code  Gb  vreg_util.o [4]
+?mov_w3_w1              0x008baa         Code  Gb  vreg_util.o [4]
+?mov_w5_w1              0x008bb7         Code  Gb  vreg_util.o [4]
+?mov_w6_w0              0x008b83         Code  Gb  vreg_util.o [4]
+?mul16_x_x_w0           0x00904b         Code  Gb  short.o [4]
+?not32_l0_l0            0x008d3b         Code  Gb  long.o [4]
+?or32_l0_l0_0x          0x008d5f         Code  Gb  long.o [4]
+?or32_l0_l0_l1          0x008d5c         Code  Gb  long.o [4]
+?pop_l0                 0x008b44         Code  Gb  vreg_util.o [4]
+?pop_l1                 0x008b4f         Code  Gb  vreg_util.o [4]
+?pop_l2                 0x008b5a         Code  Gb  vreg_util.o [4]
+?pop_w4                 0x008b02         Code  Gb  vreg_util.o [4]
+?pop_w6                 0x008b09         Code  Gb  vreg_util.o [4]
+?push_l0                0x008b18         Code  Gb  vreg_util.o [4]
+?push_l1                0x008b1d         Code  Gb  vreg_util.o [4]
+?push_l2                0x008b22         Code  Gb  vreg_util.o [4]
+?push_w4                0x008ae5         Code  Gb  vreg_util.o [4]
+?push_w6                0x008aea         Code  Gb  vreg_util.o [4]
+?srl32_0x_0x_a          0x008d7a         Code  Gb  long.o [4]
+?srl32_l0_l0_a          0x008d77         Code  Gb  long.o [4]
+?srl8_a_a_5             0x00920b         Code  Gb  char.o [4]
+?srl8_a_a_6             0x00920a         Code  Gb  char.o [4]
+?ucmp32_c_l0_0x         0x008d2b         Code  Gb  long.o [4]
+?w0                     0x000000         Data  Gb  vregs.o [4]
+?w1                     0x000002         Data  Gb  vregs.o [4]
+?w2                     0x000004         Data  Gb  vregs.o [4]
+?w3                     0x000006         Data  Gb  vregs.o [4]
+?w4                     0x000008         Data  Gb  vregs.o [4]
+?w5                     0x00000a         Data  Gb  vregs.o [4]
+?w6                     0x00000c         Data  Gb  vregs.o [4]
+?w7                     0x00000e         Data  Gb  vregs.o [4]
+ADC1_IRQHandler         0x0091d0    0xa  Code  Gb  stm8s_it.o [1]
+CSTACK$$Base            0x000300          --   Gb  - Linker created -
+CSTACK$$Limit           0x000400          --   Gb  - Linker created -
+INTVEC$$Base            0x008000          --   Gb  - Linker created -
+INTVEC$$Limit           0x008080          --   Gb  - Linker created -
+IWDG_KR                 0x0050e0    0x1  Data  Gb  main.o [1]
+Region$$Table$$Base     0x00901a          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00902c          --   Gb  - Linker created -
+TIM1_UPD_OVF_BRK_IRQHandler
+                        0x0091bc    0xa  Code  Gb  stm8s_it.o [1]
+TIM2_UPD_OVF_BRK_IRQHandler
+                        0x0091c6    0xa  Code  Gb  stm8s_it.o [1]
+TIM4_ARR                0x005348    0x1  Data  Gb  stm8s_tim4.o [1]
+TIM4_UPD_OVF_IRQHandler
+                        0x00902c   0x1f  Code  Gb  stm8s_it.o [1]
+Tab_IndeKeyValue        0x009174    0xc  Data  Gb  KeyDriverConfig.o [1]
+Tab_KeySelfState        0x00913c    0xf  Data  Gb  KeyDriverConfig.o [1]
+_A_ADC_CSR              0x005400    0x1  Data  Gb  stm8s_it.o [1]
+_A_CLK_CKDIVR           0x0050c6    0x1  Data  Gb  stm8s_clock.o [1]
+_A_CLK_ECKR             0x0050c1    0x1  Data  Gb  stm8s_clock.o [1]
+_A_CLK_ICKR             0x0050c0    0x1  Data  Gb  stm8s_clock.o [1]
+_A_PC_IDR               0x00500b    0x1  Data  Gb  KeyDriverHardware.o [1]
+_A_TIM1_SR1             0x005255    0x1  Data  Gb  stm8s_it.o [1]
+_A_TIM2_SR1             0x005304    0x1  Data  Gb  stm8s_it.o [1]
+_A_TIM4_CR1             0x005340    0x1  Data  Gb  stm8s_tim4.o [1]
+_A_TIM4_IER             0x005343    0x1  Data  Gb  stm8s_tim4.o [1]
+_A_TIM4_PSCR            0x005347    0x1  Data  Gb  stm8s_tim4.o [1]
+_A_TIM4_SR              0x005344    0x1  Data  Gb  stm8s_tim4.o [1]
+__DebugBreak            0x00922d    0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x0090e0   0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_copy_init2        0x008fd0         Code  Gb  init_small.o [4]
+__iar_data_init2        0x00909f   0x17  Code  Gb  init.o [4]
+__iar_program_start     0x009107         Code  Gb  cstartup.o [4]
+__iar_unhandled_exception
+                        0x00922a         Code  Gb  unhandled_exception.o [4]
+__iar_zero_init2        0x009069         Code  Gb  init_small.o [4]
+__intvec                0x008000         Data  Gb  interrupt.o [4]
+__low_level_init        0x009224    0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x009215         Code  Gb  cexit.o [4]
+_interrupt_13           0x0091bc         Code  Gb  stm8s_it.o [1]
+_interrupt_15           0x0091c6         Code  Gb  stm8s_it.o [1]
+_interrupt_24           0x0091d0         Code  Gb  stm8s_it.o [1]
+_interrupt_25           0x00902c         Code  Gb  stm8s_it.o [1]
+exit                    0x009227    0x3  Code  Gb  exit.o [4]
+f_AddU16Data            0x00911a   0x12  Code  Gb  SubFunction.o [1]
+f_AddUint16_t           0x008ff8   0x22  Code  Gb  mid_adder_subtractor.o [1]
+f_BspInit               0x009167    0xd  Code  Gb  bsp.o [1]
+f_ClockInit             0x0090f4   0x13  Code  Gb  stm8s_clock.o [1]
+f_ComplexKeyDiscern     0x008bbe   0xcb  Code  Gb  mid_key.o [1]
+f_GetKeys               0x008c89   0xa2  Code  Gb  KeyDriverHardware.o [1]
+f_IndependentKeyDeal    0x008080  0x37d  Code  Gb  KeyDriver.o [1]
+f_IsSingleKey           0x008e5c   0x3d  Code  Gb  KeyDriver.o [1]
+f_Key0_P_0              0x0091ec    0x8  Code  Gb  key_app.o [1]
+f_Key0_P_1              0x009180    0xa  Code  Gb  key_app.o [1]
+f_Key0_P_2              0x00918a    0xa  Code  Gb  key_app.o [1]
+f_Key0_R_0              0x0091f4    0x8  Code  Gb  key_app.o [1]
+f_Key1_P_0              0x0091da    0x9  Code  Gb  key_app.o [1]
+f_Key1_P_1              0x009194    0xa  Code  Gb  key_app.o [1]
+f_Key1_R_0              0x0091e3    0x9  Code  Gb  key_app.o [1]
+f_Key2_P_0              0x00919e    0xa  Code  Gb  key_app.o [1]
+f_Key2_P_1              0x0091a8    0xa  Code  Gb  key_app.o [1]
+f_Key2_R_0              0x0091b2    0xa  Code  Gb  key_app.o [1]
+f_Key3_P_0              0x0091fc    0x7  Code  Gb  key_app.o [1]
+f_Key3_P_1              0x009203    0x7  Code  Gb  key_app.o [1]
+f_Key3_R_0              0x009210    0x5  Code  Gb  key_app.o [1]
+f_KeyCfg                0x008f3a   0x33  Code  Gb  key_cfg.o [1]
+f_KeyDeal               0x008971  0x174  Code  Gb  KeyDeal.o [1]
+f_KeyDealInit           0x00912c   0x10  Code  Gb  KeyDeal.o [1]
+f_KeyDiscern            0x008dd4   0x46  Code  Gb  key_hardware.o [1]
+f_KeyDriverDeal         0x0083fd  0x2cb  Code  Gb  KeyDriver.o [1]
+f_KeyDriverInit         0x008e1a   0x42  Code  Gb  KeyDriver.o [1]
+f_KeyFunction           0x008f9f   0x31  Code  Lc  mid_key.o [1]
+f_KeyPropertyDeInit     0x009159    0xe  Code  Gb  mid_key.o [1]
+f_KeyPropertyInit       0x008f6d   0x32  Code  Gb  mid_key.o [1]
+f_KeyResp               0x0086c8  0x2a9  Code  Gb  mid_key.o [1]
+f_Memset                0x009087   0x18  Code  Gb  SubFunction.o [1]
+f_PowerOnDelay          0x00914b    0xe  Code  Lc  bsp.o [1]
+f_SingleKeyDiscern      0x008e99   0x37  Code  Gb  mid_key.o [1]
+f_SoftwareInit          0x00921a    0x4  Code  Lc  main.o [1]
+f_SystickInit           0x0090b6   0x15  Code  Gb  stm8s_tim4.o [1]
+f_Timepiece             0x008d88   0x4c  Code  Gb  timer.o [1]
+key                     0x00006a   0x20  Data  Lc  mid_key.o [1]
+keyDriver               0x00008a   0x1d  Data  Gb  KeyDeal.o [1]
+keyDriverIndeKey        0x000046   0x24  Data  Gb  KeyDriver.o [1]
+keyHardware             0x00921e    0x3  Data  Gb  KeyDriverHardware.o [1]
+keyValue                0x0000b6    0x2  Data  Lc  key_app.o [1]
+keycode0                0x000010   0x12  Data  Gb  key_cfg.o [1]
+keycode1                0x000022    0xc  Data  Gb  key_cfg.o [1]
+keycode2                0x00002e    0xc  Data  Gb  key_cfg.o [1]
+keycode3                0x00003a    0xc  Data  Gb  key_cfg.o [1]
+main                    0x008ed0   0x36  Code  Gb  main.o [1]
+memset                  0x0090cb   0x15  Code  Gb  memset.o [4]
+sysTimeFlag             0x0000a7    0xb  Data  Gb  main.o [1]
+sysTimerFlag            0x0000bd    0x1  Data  Gb  timer.o [1]
+testValue               0x0000b8    0x2  Data  Gb  KeyDeal.o [1]
+timerCNT_1ms            0x0000ba    0x2  Data  Lc  timer.o [1]
+
+
+[1] = C:\Users\as\Desktop\KeyDriver_÷”Íª∫≤20180414\Debug\Obj
+[2] = command line
+[3] = dbgstm8smd.a
+[4] = dlstm8smn.a
+
+  4 478 bytes of readonly  code memory
+    230 bytes of readonly  data memory
+    446 bytes of readwrite data memory (+ 13 absolute)
+
+Errors: none
+Warnings: none
